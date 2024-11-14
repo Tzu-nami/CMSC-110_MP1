@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marce will reach typhoon category by Nov 5, PAGASA says</title>
+    <link href="articles.css" rel="stylesheet" type="text/css">
+</head>
+<body id="newspaper">
+    <!--Header and Title-->
+    <div class="header" id="div-header">
+        <h1 class="newspaper-title">The Outdrop Bulletin</h1>
+    </div>
+
+    <!--Contents of the article-->
+    <div class="article" id="article-div">
+        <h3 class="article-category" id="category">Headline | News</h3>
+        <h2 class="article-title">Tropical storm ‘Nika’ barreling towards eastern Luzon</h2>
+        <h4 class="article-author">By: Dennis Gasgonia  |  ABS-CBN News</h4>
+        <img class="article-img" src="https://news-workbench-api.abs-cbn.com/api/upload-raw/20241109151148/6cb516660d020a3715cc7b85c9d67c1bad6221d1cada9054d03b2aa97f5439ed.jpg" alt="Path of Tropical Storm Nika">
+        <div class="article-img-caption" id="caption">Typhoon Marce as of 10:00 a.m. on November 5, 2024.</div>
+        <p class="article-opening">Tropical cyclone Nika has continued to intensify and may turn into a severe tropical storm on Sunday, the state weather bureau said Saturday. The tropical storm was last sighted 625 kilometers east of Virac, Catanduanes at 10 p.m.</p>
+        <p class="article-body">
+            It carries maximum sustained winds of 75 kilomters per hour near the center, gusts of up to 90 kph, and is moving westward at 20 kph.It will intensify further into a severe tropical storm before making landfall over Aurora or Isabela on Monday afternoon or evening. The possibility of rapid intensification into a typhoon is not ruled out.
+            <br><br>
+            Heavy to intense rains and strong winds will batter Cagayan Valley, Cordillera, Ilocos Region and parts of Central Luzon as the storm crosses Northern Luzon through early Tuesday.
+            <br><br>
+            Serious and widespread flooding and landslides are expected. 
+            <br><br>
+            Nika may exit the Philippine area of responsibility Tuesday evening, according to PAGASA.
+        </p>
+        <div class="article-reference">Click this <a href="https://news.abs-cbn.com/news/2024/11/9/tropical-storm-nika-barreling-towards-central-luzon-1736">link</a> to view the original source of the article.</div>
+    </div>
+    <br><br><br>
+
+    <!--Control Panel-->
+    <div class="control-panel" id="panel">
+        <div class="customize-option" id="menu-label">
+            Main Menu
+        </div>
+        <div class="customize-option" id="change-view-div">
+            <button class="customize-button" id="change-view" onclick="changeView()">Layout: Columned</button>
+        </div>
+        <div class="customize-option" id="change-order-div">
+            <button class="customize-button" id="change-order" onclick="openOrderMenu()">Article Order</button>
+        </div>
+
+        <div class="customize-option" id="change-theme-div">
+            <button class="customize-button" id="change-theme" onclick="changeTheme()">Theme: Classic</button>
+        </div>
+    </div>
+
+    <script src="articles.js"></script>
+</body>
+</html>
